@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+main {
+  height: 100vh;
+  background-color: rgb(213 225 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.card {
+  width: 320px;
+  height: 497px;
+  background-color: White;
+  border-radius: 20px;
+}
+
+div.blue {
+  width: 288px;
+  height: 288px;
+  background-color: rgb(44 125 250);
+  border-radius: 10px;
+}
