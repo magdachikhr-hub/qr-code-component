@@ -27,7 +27,7 @@ div.card {
   padding: 16px;
 }
 
-.image-wrapper {
+.wrapper {
   position: relative;
   width: 288px;
   height: 288px;
@@ -48,17 +48,21 @@ div.card {
 }
 
 div.text {
-  width: 288px;
   text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
   h2 {
     font-weight: 700;
     color: rgba(31, 49, 79, 1);
     margin-top: 24px;
     margin-bottom: 16px;
+    font-size: 22px;
   }
 
   p {
     font-weight: 400;
     color: rgba(125, 136, 158, 1);
+    font-size: 15px;
+    letter-spacing: 0.19px;
   }
 }
